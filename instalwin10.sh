@@ -77,7 +77,7 @@ mkdir -p /root/win_iso /tmp/win_mount
 
 echo -e "${YELLOW}⬇️  Descargando ISO de Windows...${NC}"
 # URL del tutorial (puedes cambiarla por tu propia ISO si prefieres)
-wget -O /root/win_iso/win10.iso --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" https://bit.ly/tswin10
+wget -O /root/win_iso/win10.iso --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" https://files.rg-adguard.net/file/e0de9021-23c8-b808-b211-c6903a1cbc47
 
 echo -e "${YELLOW}💿 Montando ISO y copiando archivos a /dev/sda1...${NC}"
 mount -o loop /root/win_iso/win10.iso /tmp/win_mount
